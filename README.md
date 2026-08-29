@@ -58,12 +58,12 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=WandrysFG&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=WandrysFG&theme=synthwave&hide_border=true&layout=compact" alt="Top Langs" height="165"/>
+  <img src="./images/stats.svg" alt="GitHub Stats"/>
+  <img src="./images/langs.svg" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=WandrysFG&hide_border=true&background=060606&ring=39FF14&fire=FF00FF&currStreakLabel=00FFF2&sideNums=00FFF2&dates=7a7a7a&stroke=000000" alt="GitHub Streak"/>
+  <img src="./profile/streak.svg" alt="GitHub Streak"/>
 </p>
 
 ## 🏆 GitHub Trophies
