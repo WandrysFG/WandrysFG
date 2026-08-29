@@ -28,9 +28,8 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/stats.svg
-          # Formato: fondo borde iconos título texto
-          colors: '#050505 #8B0000 #D32F2F #D32F2F #FFFFFF'
-          hide-keys: languages
+          colors: '#050505 #050505 #D32F2F #D32F2F #FFFFFF'
+          hide-keys: languages,general,repositories
           include-title: true
           custom-title: 'GitHub Stats'
           commit-and-push: true
@@ -41,8 +40,7 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/langs.svg
-          # Formato: fondo borde iconos título texto
-          colors: '#050505 #8B0000 #D32F2F #D32F2F #FFFFFF'
+          colors: '#050505 #050505 #D32F2F #D32F2F #FFFFFF'
           hide-keys: general,contributions,repositories
           include-title: true
           custom-title: 'Top Languages'
