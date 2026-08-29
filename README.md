@@ -1,7 +1,9 @@
-<h1 align="center">¡Hola, soy Wandrys! 👋</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00FF,50:8000FF,100:00FFF2&height=250&section=header&text=Wandrys%20Ferrand&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Backend%20Developer%20%7C%20AI%20Enthusiast&descAlignY=75&descSize=20&descColor=ffffff" width="100%"/>
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Software+Development+Student;Backend+Developer;AI+Enthusiast;Building+Practical+Solutions+with+Code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=Software+Development+Student;Building+Practical+Solutions+with+Code;Backend+%2B+AI+%3D+%E2%9D%A4%EF%B8%8F" alt="Typing SVG"/>
 </p>
 
 ## 💫 Sobre mí
@@ -17,10 +19,10 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
 
 <p align="left">
   <a href="https://www.linkedin.com/in/wandrys-ferrand1" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFF2" alt="LinkedIn"/>
   </a>
   <a href="mailto:wandrysf@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=FF00FF" alt="Email"/>
   </a>
 </p>
 
@@ -28,66 +30,66 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
 
 **Lenguajes**
 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C#](https://img.shields.io/badge/c%23-000000?style=for-the-badge&logo=csharp&logoColor=39FF14)
+![Python](https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=39FF14)
 
 **Frameworks & Plataformas**
 
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-000000?style=for-the-badge&logo=.net&logoColor=00FFF2)
+![Azure](https://img.shields.io/badge/azure-000000?style=for-the-badge&logo=microsoftazure&logoColor=00FFF2)
 
 **Bases de Datos**
 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-000000?style=for-the-badge&logo=postgresql&logoColor=FF00FF)
+![SQLite](https://img.shields.io/badge/sqlite-000000?style=for-the-badge&logo=sqlite&logoColor=FF00FF)
+![Oracle](https://img.shields.io/badge/Oracle-000000?style=for-the-badge&logo=oracle&logoColor=FF00FF)
+![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=FF00FF)
+![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=FF00FF)
 
 **Herramientas**
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Git](https://img.shields.io/badge/git-000000?style=for-the-badge&logo=git&logoColor=FFEE00)
+![GitHub](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=FFEE00)
+![Postman](https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=postman&logoColor=FFEE00)
+![Jira](https://img.shields.io/badge/jira-000000?style=for-the-badge&logo=jira&logoColor=FFEE00)
+![Cisco](https://img.shields.io/badge/cisco-000000?style=for-the-badge&logo=cisco&logoColor=FFEE00)
+![Canva](https://img.shields.io/badge/Canva-000000?style=for-the-badge&logo=Canva&logoColor=FFEE00)
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=WandrysFG&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=WandrysFG&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Langs" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=WandrysFG&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=WandrysFG&theme=synthwave&hide_border=true&layout=compact" alt="Top Langs" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=WandrysFG&theme=tokyonight&hide_border=false" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=WandrysFG&hide_border=true&background=060606&ring=39FF14&fire=FF00FF&currStreakLabel=00FFF2&sideNums=00FFF2&dates=7a7a7a&stroke=000000" alt="GitHub Streak"/>
 </p>
 
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=WandrysFG&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=WandrysFG&theme=radical&no-frame=true&margin-w=4" alt="GitHub Trophies"/>
 </p>
 
-## 🔝 Top Repositorio Contribuido
+## 📌 Repo Destacado
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=WandrysFG&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repo"/>
+  <a href="https://github.com/WandrysFG/WandrysFG">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=WandrysFG&repo=WandrysFG&theme=synthwave&hide_border=true" alt="Repo destacado"/>
+  </a>
 </p>
 
 ### ✍️ Frase random para devs
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote"/>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://komarev.com/ghpvc/?username=WandrysFG&icon=10&color=11" alt="Profile Views"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=WandrysFG&icon=10&color=39FF14&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
 ### 🐍 Contribution Snake
@@ -97,3 +99,7 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WandrysFG/WandrysFG/output/github-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/WandrysFG/WandrysFG/output/github-snake.svg" />
 </picture>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFF2,50:8000FF,100:FF00FF&height=100&section=footer" width="100%"/>
+</p>
