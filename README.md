@@ -89,3 +89,11 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
     <img src="https://komarev.com/ghpvc/?username=WandrysFG&icon=10&color=11" alt="Profile Views"/>
   </a>
 </p>
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WandrysFG/WandrysFG/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WandrysFG/WandrysFG/output/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/WandrysFG/WandrysFG/output/github-snake.svg" />
+</picture>
