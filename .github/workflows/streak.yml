@@ -27,10 +27,6 @@ jobs:
       - name: Create profile directory
         run: mkdir -p profile
 
-      # ==========================================
-      # GitHub Stats
-      # ==========================================
-
       - name: Generate GitHub Stats
         uses: cicirello/user-statistician@v1
         with:
@@ -43,10 +39,6 @@ jobs:
           commit-message: "Update GitHub stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # ==========================================
-      # Top Languages
-      # ==========================================
 
       - name: Generate Top Languages
         uses: cicirello/user-statistician@v1
@@ -62,28 +54,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ==========================================
-      # GitHub Streak
-      # ==========================================
-
       - name: Generate GitHub Streak
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           path: profile/streak.svg
-          options: >-
-            user=${{ github.repository_owner }}
-            &theme=default
-            &hide_border=true
-            &background=050505
-            &ring=FF0000
-            &fire=FF3333
-            &currStreakLabel=FF0000
-            &sideLabels=FF0000
-            &currStreakNum=FFFFFF
-            &sideNums=FFFFFF
-            &dates=888888
-            &stroke=8B0000
-            &disable_animations=true
+          options: "user=${{ github.repository_owner }}&theme=default&hide_border=true&background=050505&ring=FF0000&fire=FF3333&currStreakLabel=FF0000&sideLabels=FF0000&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888&stroke=8B0000&disable_animations=true"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit GitHub Streak
@@ -93,10 +68,7 @@ jobs:
 
           git add profile/streak.svg
 
-          if git diff --cached --quiet; then
-            echo "No streak changes to commit."
-          else
-            git commit -m "Update GitHub streak"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "Update GitHub streak"
+
+          git push
 ```
