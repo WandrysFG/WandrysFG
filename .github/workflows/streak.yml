@@ -1,3 +1,4 @@
+```yaml
 name: Generate GitHub Stats
 
 on:
@@ -30,7 +31,7 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/stats.svg
-          colors: "#000000 #FF0000 #FF3333 #8B0000 #FFFFFF"
+          colors: "#050505 #FF0000 #8B0000 #FF3333 #FFFFFF"
           hide-keys: languages
           include-title: true
           custom-title: "GitHub Stats"
@@ -41,7 +42,7 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/langs.svg
-          colors: "#000000 #FF0000 #FF3333 #8B0000 #FFFFFF"
+          colors: "#050505 #8B0000 #FF0000 #FF3333 #FFFFFF"
           hide-keys: general,contributions,repositories
           include-title: true
           custom-title: "Top Languages"
@@ -62,3 +63,4 @@ jobs:
             git commit -m "Update GitHub statistics"
             git push
           fi
+```
