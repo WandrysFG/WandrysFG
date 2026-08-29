@@ -9,7 +9,7 @@ on:
     branches:
       - main
     paths:
-      - ".github/workflows/stats.yml"
+      - ".github/workflows/streak.yml"
 
   workflow_dispatch:
 
@@ -30,56 +30,46 @@ jobs:
       # ==========================================
       # GitHub Stats
       # ==========================================
+
       - name: Generate GitHub Stats
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/stats.svg
-
-          # Neon Red theme
           colors: "#050505 #FF0000 #8B0000 #FF3333 #FFFFFF"
-
           hide-keys: languages
           include-title: true
           custom-title: "GitHub Stats"
-
-          # Keep the generated SVG in the repository
           commit-and-push: true
           commit-message: "Update GitHub stats"
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ==========================================
       # Top Languages
       # ==========================================
+
       - name: Generate Top Languages
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/langs.svg
-
-          # Neon Red theme
           colors: "#050505 #8B0000 #FF0000 #FF3333 #FFFFFF"
-
-          hide-keys: general, contributions, repositories
+          hide-keys: general,contributions,repositories
           include-title: true
           custom-title: "Top Languages"
           max-languages: 8
-
-          # Keep the generated SVG in the repository
           commit-and-push: true
           commit-message: "Update top languages"
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ==========================================
       # GitHub Streak
       # ==========================================
+
       - name: Generate GitHub Streak
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           path: profile/streak.svg
-
           options: >-
             user=${{ github.repository_owner }}
             &theme=default
@@ -94,12 +84,8 @@ jobs:
             &dates=888888
             &stroke=8B0000
             &disable_animations=true
-
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ==========================================
-      # Commit Streak
-      # ==========================================
       - name: Commit GitHub Streak
         run: |
           git config user.name "github-actions[bot]"
