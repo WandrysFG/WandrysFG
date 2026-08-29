@@ -58,8 +58,8 @@ Estudiante de Desarrollo de Software apasionado por el **backend**, la **Intelig
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./images/stats.svg" alt="GitHub Stats"/>
-  <img src="./images/langs.svg" alt="Top Languages"/>
+  <img src="./profile/stats.svg" alt="GitHub Stats"/>
+  <img src="./profile/langs.svg" alt="Top Languages"/>
 </p>
 
 <p align="center">
