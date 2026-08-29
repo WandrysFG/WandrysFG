@@ -1,12 +1,16 @@
-name: user-statistician
+name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # se regenera todos los días a las 3am UTC
+    - cron: "0 3 * * *"
+
   push:
-    branches: [ main ]
-    paths: [ '.github/workflows/stats.yml' ]
-  workflow_dispatch: {}   # correrlo manualmente desde la pestaña "Actions"
+    branches:
+      - main
+    paths:
+      - ".github/workflows/stats.yml"
+
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,28 +18,47 @@ permissions:
 jobs:
   stats:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Generate GitHub stats card (neon)
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Generate GitHub Stats
         uses: cicirello/user-statistician@v1
         with:
-          image-file: images/stats.svg
-          colors: '#060606 #FF00FF #00FFF2 #FF00FF #e5e5e5'
+          image-file: profile/stats.svg
+          colors: "#000000 #FF0000 #FF3333 #8B0000 #FFFFFF"
           hide-keys: languages
           include-title: true
-          custom-title: 'GitHub Stats'
+          custom-title: "GitHub Stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card (neon)
+      - name: Generate Top Languages
         uses: cicirello/user-statistician@v1
         with:
-          image-file: images/langs.svg
-          colors: '#060606 #39FF14 #00FFF2 #39FF14 #e5e5e5'
-          hide-keys: general, contributions, repositories
+          image-file: profile/langs.svg
+          colors: "#000000 #FF0000 #FF3333 #8B0000 #FFFFFF"
+          hide-keys: general,contributions,repositories
           include-title: true
-          custom-title: 'Top Languages'
+          custom-title: "Top Languages"
           max-languages: 8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/langs.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update GitHub statistics"
+            git push
+          fi
