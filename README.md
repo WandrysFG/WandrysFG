@@ -64,12 +64,13 @@ Me gusta aprender construyendo proyectos y entender cómo se conectan las difere
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./profile/stats.svg" height="190" alt="GitHub Stats"/>
-  <img src="./profile/langs.svg" height="190" alt="Top Languages"/>
+  <img src="./profile/streak.svg" alt="GitHub Streak"/>
 </p>
 
+<!-- Usando width al 49% aseguramos que ocupen todo el ancho sin romperse -->
 <p align="center">
-  <img src="./profile/streak.svg" height="190" alt="GitHub Streak"/>
+  <img src="./profile/stats.svg" width="49%" alt="GitHub Stats"/>
+  <img src="./profile/langs.svg" width="49%" alt="Top Languages"/>
 </p>
 
 ## 🏆 GitHub Trophies
