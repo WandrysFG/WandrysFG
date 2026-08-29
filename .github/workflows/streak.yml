@@ -1,33 +1,41 @@
-name: Update streak stats
+name: user-statistician
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # se regenera cada 6 horas
-  workflow_dispatch: {}     # correrlo manualmente desde la pestaña "Actions"
+    - cron: '0 3 * * *'   # se regenera todos los días a las 3am UTC
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths: [ '.github/workflows/stats.yml' ]
+  workflow_dispatch: {}   # correrlo manualmente desde la pestaña "Actions"
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak stats (neon theme)
-        uses: DenverCoder1/github-readme-streak-stats@main
+      - name: Generate GitHub stats card (neon)
+        uses: cicirello/user-statistician@v1
         with:
-          options: user=${{ github.repository_owner }}&hide_border=true&background=060606&ring=39FF14&fire=FF00FF&currStreakLabel=00FFF2&sideNums=00FFF2&dates=7a7a7a&stroke=000000
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          image-file: images/stats.svg
+          colors: '#060606 #FF00FF #00FFF2 #FF00FF #e5e5e5'
+          hide-keys: languages
+          include-title: true
+          custom-title: 'GitHub Stats'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit streak stats
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
-          git commit -m "Update streak stats" || exit 0
-          git push
+      - name: Generate top languages card (neon)
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/langs.svg
+          colors: '#060606 #39FF14 #00FFF2 #39FF14 #e5e5e5'
+          hide-keys: general, contributions, repositories
+          include-title: true
+          custom-title: 'Top Languages'
+          max-languages: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
