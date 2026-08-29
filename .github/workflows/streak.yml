@@ -2,10 +2,8 @@ name: Generate GitHub Profile Stats
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '0 3 * * *'
-
   push:
     branches:
       - main
@@ -30,7 +28,8 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/stats.svg
-          colors: '#050505 #FF0000 #8B0000 #FF3333 #FFFFFF'
+          # Formato: fondo borde iconos título texto
+          colors: '#050505 #8B0000 #D32F2F #D32F2F #FFFFFF'
           hide-keys: languages
           include-title: true
           custom-title: 'GitHub Stats'
@@ -42,7 +41,8 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: profile/langs.svg
-          colors: '#050505 #8B0000 #FF0000 #FF3333 #FFFFFF'
+          # Formato: fondo borde iconos título texto
+          colors: '#050505 #8B0000 #D32F2F #D32F2F #FFFFFF'
           hide-keys: general,contributions,repositories
           include-title: true
           custom-title: 'Top Languages'
@@ -55,7 +55,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           path: profile/streak.svg
-          options: 'user=${{ github.repository_owner }}&theme=default&hide_border=true&background=050505&ring=FF0000&fire=FF3333&currStreakLabel=FF0000&sideLabels=FF0000&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888&stroke=8B0000&disable_animations=true'
+          options: 'user=${{ github.repository_owner }}&theme=default&hide_border=true&background=050505&ring=D32F2F&fire=D32F2F&currStreakLabel=D32F2F&sideLabels=D32F2F&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAAAAA&stroke=8B0000&disable_animations=true'
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit streak
