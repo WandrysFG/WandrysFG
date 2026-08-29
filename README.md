@@ -63,15 +63,24 @@ Me gusta aprender construyendo proyectos y entender cómo se conectan las difere
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="./profile/streak.svg" alt="GitHub Streak"/>
-</p>
+<div align="center">
 
-<!-- Usando width al 49% aseguramos que ocupen todo el ancho sin romperse -->
-<p align="center">
-  <img src="./profile/stats.svg" width="49%" alt="GitHub Stats"/>
-  <img src="./profile/langs.svg" width="49%" alt="Top Languages"/>
-</p>
+  <!-- Streak — Full Width -->
+  <a href="https://github.com/WandrysFG">
+    <img width="100%" src="https://streak-stats.demolab.com/?user=WandrysFG&hide_border=true&background=050505&stroke=8B0000&ring=D32F2F&fire=D32F2F&currStreakLabel=D32F2F&sideLabels=D32F2F&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAAAAA&titleColor=D32F2F&card_width=1180" alt="Wandrys' Streak" />
+  </a>
+
+  <br/>
+
+  <!-- Stats + Top Languages — Side by Side -->
+  <a href="https://github.com/WandrysFG">
+    <img width="49%" src="https://github-readme-stats-eight-lake-87.vercel.app/api?username=WandrysFG&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=D32F2F&icon_color=D32F2F&text_color=FFFFFF&bg_color=050505&card_width=500" alt="Wandrys' GitHub Stats" />
+  </a>
+  <a href="https://github.com/WandrysFG">
+    <img width="49%" src="https://github-readme-stats-eight-lake-87.vercel.app/api/top-langs/?username=WandrysFG&layout=compact&langs_count=8&hide_border=true&title_color=D32F2F&text_color=FFFFFF&bg_color=050505&card_width=500" alt="Top Languages" />
+  </a>
+
+</div>
 
 ## 🏆 GitHub Trophies
 
